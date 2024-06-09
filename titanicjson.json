@@ -1,0 +1,151 @@
+[
+  {
+    "first_name": "John",
+    "last_name": "Doe",
+    "gender": "male",
+    "age": 30,
+    "embarking_port": "Southampton",
+    "survived": true,
+    "SibSp": 1,
+    "ParCH": 0,
+    "family_size": 2,
+    "adress": {
+      "country_name": "USA",
+      "street": "123 Main St",
+      "postal_code": "12345",
+      "town": "Springfield",
+      "state": "IL"
+    },
+    "tickets": [
+      {
+        "purchase_date": {"$timestamp": {"t": 1625678901, "i": 1}},
+        "ticket_code": "A12345",
+        "ticket_count": 1,
+        "fare": 100.0,
+        "boarding_port": "Southampton",
+        "destination_port": "New York"
+      }
+    ],
+    "cabin": {
+      "cabin_name": "Ocean View",
+      "cabin_number": 101,
+      "deck": "A"
+    },
+    "lifeboats": [
+      {
+        "capacity": 70,
+        "launch_time": {"$date": "2023-06-08T08:00:00Z"},
+        "survivors_count": 50
+      }
+    ],
+    "crew": {
+      "first_name": "James",
+      "last_name": "Smith",
+      "role": "Captain"
+    },
+    "Pclasses": {
+      "Pclass": 1,
+      "description": "First Class"
+    }
+  },
+  {
+    "first_name": "Jane",
+    "last_name": "Roe",
+    "gender": "female",
+    "age": 25,
+    "embarking_port": "Cherbourg",
+    "survived": false,
+    "SibSp": 0,
+    "ParCH": 1,
+    "family_size": 2,
+    "adress": {
+      "country_name": "France",
+      "street": "456 Rue de Paris",
+      "postal_code": "75001",
+      "town": "Paris",
+      "state": "Île-de-France"
+    },
+    "tickets": [
+      {
+        "purchase_date": {"$timestamp": {"t": 1625678902, "i": 1}},
+        "ticket_code": "B67890",
+        "ticket_count": 1,
+        "fare": 150.0,
+        "boarding_port": "Cherbourg",
+        "destination_port": "New York"
+      }
+    ],
+    "cabin": {
+      "cabin_name": "Standard",
+      "cabin_number": 202,
+      "deck": "B"
+    },
+    "lifeboats": [
+      {
+        "capacity": 65,
+        "launch_time": {"$date": "2023-06-08T09:00:00Z"},
+        "survivors_count": 30
+      }
+    ],
+    "crew": {
+      "first_name": "Emma",
+      "last_name": "Johnson",
+      "role": "Stewardess"
+    },
+    "Pclasses": {
+      "Pclass": 2,
+      "description": "Second Class"
+    }
+  },
+  {
+    "first_name": "Alice",
+    "last_name": "Smith",
+    "gender": "female",
+    "age": 28,
+    "embarking_port": "Queenstown",
+    "survived": true,
+    "SibSp": 0,
+    "ParCH": 0,
+    "family_size": 1,
+    "adress": {
+      "country_name": "UK",
+      "street": "789 King's Road",
+      "postal_code": "SW3 4PA",
+      "town": "London",
+      "state": "England"
+    },
+    "tickets": [
+      {
+        "purchase_date": {"$timestamp": {"t": 1625678903, "i": 1}},
+        "ticket_code": "C11223",
+        "ticket_count": 1,
+        "fare": 200.0,
+        "boarding_port": "Queenstown",
+        "destination_port": "New York"
+      }
+    ],
+    "cabin": {
+      "cabin_name": "Deluxe",
+      "cabin_number": 303,
+      "deck": "C"
+    },
+    "lifeboats": [
+      {
+        "capacity": 75,
+        "launch_time": {"$date": "2023-06-08T10:00:00Z"},
+        "survivors_count": 70
+      }
+    ],
+    "crew": {
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "role": "Chef"
+    },
+    "Pclasses": {
+      "Pclass": 3,
+      "description": "Third Class"
+    }
+  }
+]
+
+  
